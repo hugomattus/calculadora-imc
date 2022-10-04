@@ -44,7 +44,8 @@ function displayResultMessage(result){
     Modal.open()
 }
 
-
+inputWeigth.oninput = () => AlertError.close()
+inputHeight.oninput = () => AlertError.close()
 
 
 
